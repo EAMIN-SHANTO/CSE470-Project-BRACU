@@ -17,11 +17,11 @@ const Homepage = () => {
         {/* titles */}
         <div className="">
           <h1 className="text-gray-800 text-2xl md:text-5xl lg:text-6xl font-bold">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Welcome to BRACUverse
           </h1>
           <p className="mt-8 text-md md:text-xl">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi
-            rerum accusantium.
+            
+BRACUVerse is a one-stop educational and utility platform designed for BRAC University students, offering seamless access to resources, events, and collaboration opportunities. It empowers students with personalized tools to enhance their academic and campus experience.
           </p>
         </div>
         {/* animated button */}
