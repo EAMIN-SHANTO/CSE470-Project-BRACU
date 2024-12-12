@@ -7,7 +7,7 @@ const FeaturedPosts = () => {
         {/* First */}
         <div className="w-full lg:w-1/2 flex flex-col gap-4">
             {/* image */}
-            <Image src="hp.jpg" className="rounded-3xl object-cover" />
+            <Image src="hp.jpg" className="rounded-3xl object-cover" w="895" />
             
             {/* details */}
             <div className="flex items-center gap-4 text-sm lg:text-base mb-4">
@@ -22,12 +22,94 @@ const FeaturedPosts = () => {
 
             {/* title */}
             <Link to="/test" className="text-xl lg:text-3xl font-semibold lg:font-bold">  HARRY POTTER FEST 2024! </Link>
-            <Link className="text-black-800 lg:text-sm block text-justify">world of HARRY POTTER FEST 2024, taking place from December 7th to 9th at BRAC University.
-
-Our magical celebration invites you to embark on an exciting journey that champions the spirits of internationalism, economic prosperity, and climate sustainability. Join us as we explore a world where friendship, bravery, and acceptance reign supreme, uniting hearts and minds from every corner of our diverse community.</Link>
+            
             </div>
             {/* other */}
             <div className="w-full lg:w-1/2 flex flex-col gap-4">
+                {/* second */}
+                <div className="lg:h-1/3 flex justify-between gap-4">
+                <div className=" w-1/3 aspect-video">
+
+                                        
+
+                        <Image 
+                        src="featured2.jpeg" 
+                        className="rounded-3xl object-cover w-full h-full" 
+                        w="298"/>
+                        </div>
+                    {/* details and title */}
+                    <div className="w-2/3">
+                        {/* details */}
+                        <div className="flex item-center gap-4 text-sm lg:text-base mb-4">
+                            <h1 className="font-semibold text-sm lg:text-base">02.</h1>
+                            <Link to="/website-design" className="text-blue-800">website design</Link>
+                            <span className="text-gray-500 text-sm">2 day ago</span>
+                        </div>
+                        <div>
+                            {/* title */}
+                            <Link to="/test" className="text-base sm:text-lg md:text-2xl lg:text-xl xl:text-2xl font-medium">Webdesign</Link>
+                        </div>
+                    </div>
+
+            
+            </div>
+            {/* third */}
+            <div className="lg:h-1/3 flex justify-between gap-4">
+
+            <div className=" w-1/3 aspect-video">
+
+                   
+
+                <Image 
+                src="featured3.jpeg" 
+                className="rounded-3xl object-cover w-full h-full" 
+                w="298"/>
+                </div>
+                                {/* details and title */}
+                <div className="w-2/3">
+                    {/* details */}
+                    <div className="flex item-center gap-4 text-sm lg:text-base mb-4">
+                        <h1 className="font-semibold text-sm lg:text-base">02.</h1>
+                        <Link to="/website-design" className="text-blue-800">website design</Link>
+                        <span className="text-gray-500 text-sm">2 day ago</span>
+                    </div>
+                    <div>
+                        {/* title */}
+                        <Link to="/test" className="text-base sm:text-lg md:text-2xl lg:text-xl xl:text-2xl font-medium">Webdesign</Link>
+                    </div>
+                </div>
+
+
+                </div>
+            {/* fourth */}
+            <div className="lg:h-1/3 flex justify-between gap-4">
+
+            <div className=" w-1/3 aspect-video">
+
+                   
+
+                <Image 
+                src="featured4.jpeg" 
+                className="rounded-3xl object-cover w-full h-full" 
+                w="298"/>
+                </div>
+                    {/* details and title */}
+                    <div className="w-2/3">
+                        {/* details */}
+                        <div className="flex item-center gap-4 text-sm lg:text-base mb-4">
+                            <h1 className="font-semibold text-sm lg:text-base">02.</h1>
+                            <Link to="/website-design" className="text-blue-800">website design</Link>
+                            <span className="text-gray-500 text-sm">2 day ago</span>
+                        </div>
+                        <div>
+                            {/* title */}
+                            <Link to="/test" className="text-base sm:text-lg md:text-2xl lg:text-xl xl:text-2xl font-medium">Webdesign</Link>
+                        </div>
+                    </div>
+
+
+                    </div>
+
             </div>
         </div>
 
