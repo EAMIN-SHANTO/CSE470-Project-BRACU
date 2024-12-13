@@ -10,7 +10,7 @@ import connectDB from './lib/connectDB.js';
 
 
 const app = express();
-
+app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
 // Correct variable name, should be 'test' not 'text'

@@ -1,5 +1,6 @@
 import { Schema } from "mongoose";
 import mongoose from "mongoose";
+import dotenv from "dotenv";
 
 const postSchema = new Schema(
   {

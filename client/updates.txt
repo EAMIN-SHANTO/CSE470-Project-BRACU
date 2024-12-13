@@ -1,1 +1,2 @@
 database created.
+node --watch index.js  
